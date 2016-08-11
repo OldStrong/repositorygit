@@ -8,3 +8,5 @@
 ### Cause: java.sql.SQLException: ORA-00904: "MONTH_NUM": invalid identifier
 
 ; bad SQL grammar []
+
+test modify
