@@ -1,0 +1,10 @@
+﻿
+### Error querying database.  Cause: java.sql.SQLException: ORA-00904: "MONTH_NUM": invalid identifier
+
+### The error may exist in file [E:\work\20160809_728991_project-stage1_6\dal\target\classes\com\alibaba\ceres\dal\pr\mapper\BpmPoRequisitionLineExtendDoMapperExt.xml]
+### The error may involve com.alibaba.ceres.dal.pr.mapper.BpmPoRequisitionLineExtendDoMapperExt.selectByPrLineId-Inline
+### The error occurred while setting parameters
+### SQL: select                ID, GMT_CREATE, CREATOR, GMT_MODIFIED, MODIFIER, IS_DELETED, REQUISITION_HEAD_ID,      REQUISITION_LINE_ID, WORKLOAD, BUDGET_UNIT_PRICE, POSITION_VALUE_ID, POSITION_VALUE,      LEVEL_VALUE_ID, LEVEL_VALUE, SERVICE_LOCATION_VALUE_ID, SERVICE_LOCATION_VALUE, IS_USER_DEFINED_PRICE,      IS_TECHNOLOGY, SERVICE_TYPE, EFFICIENCY, HAS_PROJECT_INFO, IS_DESIGNATED_SUPPLIER,      DESIGNATED_SUPPLIER_ID, DESIGNATED_SUPPLIER_REASON, DESIGNATED_SUPPLIER_EXPLAIN,      PERSON_NUM, MONTH_NUM         from BPM_PO_REQUISITION_LINE_EXTEND     where REQUISITION_LINE_ID = ?     and is_deleted = 'n'
+### Cause: java.sql.SQLException: ORA-00904: "MONTH_NUM": invalid identifier
+
+; bad SQL grammar []
